@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results | StaySearch</title>
-
     <link rel="stylesheet" href="./css/style.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-
     <header class="results-header">
         <nav class="navbar">
-
             <div class="nav-left">
-
                 <button
                     class="back-btn"
                     onclick="history.back()"
@@ -27,114 +23,67 @@
                 <div class="logo">
                     <a href="index.html">StaySearch</a>
                 </div>
-
             </div>
-
             <ul class="nav-links">
                 <li><a href="wishlist.html">Wishlist</a></li>
                 <li><a href="history.html">History</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
-
         </nav>
     </header>
-
     <main class="results-page">
-
         <h1 id="results-title">
             Search Results
         </h1>
-
         <div class="results-controls">
-
             <p class="sort-label">
                 Sort by
             </p>
-
             <div class="sort-buttons">
-
                 <button class="sort-btn active"
                         data-sort="default">
 
                     Default
-
                 </button>
-
                 <button class="sort-btn"
                         data-sort="price-asc">
-
                     Price ↑
-
                 </button>
-
                 <button class="sort-btn"
                         data-sort="price-desc">
-
                     Price ↓
-
                 </button>
-
                 <button class="sort-btn"
                         data-sort="rating-desc">
-
                     Rating
-
                 </button>
-
                 <button class="sort-btn"
                         data-sort="name-asc">
-
                     A → Z
-
                 </button>
-
             </div>
-
         </div>
-
         <div id="loading-state" class="loading-state">
-
             <div class="orbit-container">
-
                 <i class="fa-solid fa-hotel hotel-icon"></i>
-
                 <div class="plane-orbit">
-
                     <i class="fa-solid fa-plane plane-icon"></i>
-
-
                 </div>
-
             </div>
-
             <h2>
-
                 Finding your perfect stay...
-
             </h2>
-
             <p>
-
                 Exploring amazing destinations for you.
-
             </p>
-
             <div class="loading-dots">
-
                 <span></span>
-
                 <span></span>
-
                 <span></span>
-
             </div>
-
         </div>
-
         <div id="hotels-container">
-
         </div>
-
     </main>
     <button id="scroll-top-btn">
         ↑
@@ -142,6 +91,5 @@
     <script src="./js/api.js"></script>
     <script src="./js/results.js"></script>
     <script src="./js/scroll-top.js"></script>
-
 </body>
 </html>
