@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StaySearch</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html">StaySearch</a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <h1 class="hero-title">StaySearch</h1>
+
+            <p class="hero-tagline">
+                Find your perfect stay.
+            </p>
+
+            <div class="search-container">
+
+                <div class="search-box">
+
+                    <span class="search-icon">🔍</span>
+
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search hotels, cities, ratings..."
+                        autocomplete="off"
+                        spellcheck="false"
+                    >
+
+                    <div id="suggestions-box"></div>
+
+                </div>
+
+                <button id="search-btn">
+                    Search
+                </button>
+
+            </div>
+
+            <div class="quick-actions">
+
+                <a href="cities.html" class="action-card">
+
+                    <span class="card-icon">📍</span>
+
+                    <h3>Search by City</h3>
+
+                    <p>Explore hotels based on destinations.</p>
+
+                </a>
+
+
+                <a href="budget.html" class="action-card">
+
+                    <span class="card-icon">💰</span>
+
+                    <h3>Search by Budget</h3>
+
+                    <p>Find stays that fit your budget.</p>
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <div class="hotel-decoration">
+            <i class="fa-solid fa-hotel"></i>
+        </div>
+
+        <div class="plane-decoration">
+
+            <i class="fa-solid fa-plane-departure"></i>
+
+        </div>
+
+        <div class="cloud cloud-2">☁️</div>
+        <div class="cloud cloud-3">☁️</div>
+
+        <button id="info-btn">
+
+            <i class="fa-solid fa-info"></i>
+
+        </button>
+
+        <div id="roadmap-panel">
+
+            <h2 class="roadmap-logo">
+                StaySearch
+            </h2>
+
+            <p class="roadmap-subtitle">
+                Current Release
+            </p>
+
+            <div class="roadmap-section">
+
+                <h3> Highlights </h3>
+
+                <ul>
+
+                    <li>Smart Hotel Search</li>
+                    <li>Wishlist</li>
+                    <li>Booking Flow</li>
+                    <li>Booking History</li>
+                    <li>Live Price Calculation</li>
+
+                </ul>
+
+            </div>
+
+            <div class="roadmap-section">
+
+                <h3> Coming in Future Versions </h3>
+
+                <ul>
+
+                    <li>Real Hotel API</li>
+                    <li>Interactive Maps</li>
+                    <li>Online Payments</li>
+                    <li>AI Recommendations</li>
+
+                </ul>
+
+            </div>
+
+            <p class="roadmap-footer">
+
+                Crafted with HTML, CSS & JavaScript
+
+                Version 1.0 • 2026
+
+            </p>
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/roadmap.js"></script>
+
+</body>
+</html>

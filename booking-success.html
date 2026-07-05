@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmed | StaySearch</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="results-header">
+
+        <nav class="navbar">
+
+            <div class="nav-left">
+
+                <button
+                    class="back-btn"
+                    onclick="history.back()"
+                >
+                    ←
+                </button>
+
+                <div class="logo">
+                    <a href="index.html">StaySearch</a>
+                </div>
+
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main class="booking-page">
+
+        <div id="loading-state" class="loading-state">
+
+            <div class="orbit-container">
+
+                <i class="fa-solid fa-hotel hotel-icon"></i>
+
+                <div class="plane-orbit">
+
+                    <i class="fa-solid fa-plane plane-icon"></i>
+
+                </div>
+
+            </div>
+
+            <h2>
+                Confirming your booking...
+            </h2>
+
+            <p>
+                Almost there! Preparing your confirmation.
+            </p>
+
+        </div>
+
+        <div id="booking-container">
+
+        </div>
+
+    </main>
+    <button id="scroll-top-btn">
+        ↑
+    </button>
+
+    <script src="./js/api.js"></script>
+    <script src="./js/booking-success.js"></script>
+    <script src="./js/scroll-top.js"></script>
+    <script src="./js/navbar.js"></script>
+
+</body>
+</html>
