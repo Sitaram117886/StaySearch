@@ -28,7 +28,7 @@ loadSuggestions();
 
 searchInput.addEventListener("input", () => {
     const value =
-        searchInputvalue.toLowerCase();
+        searchInput.value.toLowerCase();
     if (!value) {
         suggestionsBox.style.display = "none";
         return;
