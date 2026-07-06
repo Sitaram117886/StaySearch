@@ -43,9 +43,7 @@ The project focuses on delivering a smooth user experience with thoughtful UI de
 StaySearch/
 │
 ├── css/
-│   ├── style.css
-│   ├── animations.css
-│   └── responsive.css
+│   └──style.css
 │
 ├── js/
 │   ├── api.js
